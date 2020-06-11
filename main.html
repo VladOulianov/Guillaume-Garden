@@ -9,13 +9,13 @@
 </head>
 <body>
     <header>
-        <div class="slider">
+        <div class="slider bckg-img">
             <h1>Guillaume Garden</h1>
         </div>
     </header>
     <main>
         <section class="articles">
-            <article class="semaine">
+            <article class="semaine bckg-img">
                 <h2>Légumes de la semaine</h2>
                 <ul>
                     <li>Pomme de terre</li>
@@ -28,14 +28,14 @@
                     <p>Une récolte uniquement faite à la main, une agriculture biologique, dans le plus grand respect de la nature et des Hommes</p>
                 </div>
                 
-                <div class="img">
+                <div class="img bckg-img">
                     
                 </div>
                 
             </article>
         </section>
         <section class="forfaits">
-            <div class="card">
+            <div class="card bckg-img">
                 <div class="txt">
                     <p>Forfaits paniers 30€ l'année pour se faire livrer de bons légumes à domicile</p>
                 </div>
@@ -43,7 +43,7 @@
             </div>
             
         </section>
-        <section class="contact">
+        <section class="contact bckg-img">
             <p>Pour toutes commandes me contacter par<br> téléphone <br> au <br> 06.60.50.40.30 <br> ou <br> par mail <br> au <br> guillaume@gmail.com</p>
         </section>
         <section class="map">
@@ -53,6 +53,11 @@
     <footer>
         <p>©Guillaume Garden 2020</p>
     </footer>
-    
+    <!-- Polyfill pour l'API Intersection Observer -->
+<script src="CHEMIN/intersection-observer-polyfill.js"></script>
+
+<!-- Script pour le Lazy Loading -->
+<!-- (On peut ajouter "async" ou "defer" en attribut) -->
+<script src="CHEMIN/intersection-observer-script.js"></script>
 </body>
 </html>
